@@ -1,6 +1,6 @@
 class Dress:
-    color = 'red'
-    price = 100
+    color = None
+    price = 0
     def __init__(self, c= None):
         if c != None:
             self.color = c
